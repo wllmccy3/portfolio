@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Willie McCoy III">
+    <meta name="description" content="Portfolio">
+    <link type="text/css" rel="stylesheet" href="style/style.min.css">
+    <link type="text/css" rel="stylesheet" href="style/index.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="faq.html">FAQ</a>
+            <a href="services.html">Services</a>
+            <a href="javascript:void(0)" onclick="openNav()"><i class="icon menu"></i></a>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to Codeable!</h1>
+        <figure>
+            <img src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fforbestechcouncil%2Ffiles%2F2019%2F01%2Fcanva-photo-editor-8-7.jpg" alt="A bunch of code">
+            <figcaption>Excepteur mollit consectetur officia esse fugiat ex ipsum.</figcaption>
+        </figure>
+        <article>
+            <p>Computer programming is the process of designing and building an executable computer program to accomplish a specific computing result or to perform a specific task. Programming involves tasks such as: analysis, generating algorithms, profiling algorithms' accuracy and resource consumption, and the implementation of algorithms in a chosen programming language (commonly referred to as coding). The source code of a program is written in one or more languages that are intelligible to programmers, rather than machine code, which is directly executed by the central processing unit. The purpose of programming is to find a sequence of instructions that will automate the performance of a task (which can be as complex as an operating system) on a computer, often for solving a given problem. Proficient programming thus often requires expertise in several different subjects, including knowledge of the application domain, specialized algorithms, and formal logic.</p>
+        </article>
+    </main>
+    <footer>
+        <p>© Group Tails 2021</p>
+    </footer>
+    <script type="application/javascript">
+        function openNav(){
+            let nav = document.querySelector("nav");
+            nav.classList.toggle("responsive");
+        }
+    </script>
+</body>
+
+</html>
