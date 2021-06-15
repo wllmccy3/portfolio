@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Odibee+Sans&display=swap");
+nav {
+  width: 100%;
+  background-color: #b00b69;
+  font-family: "Odibee Sans", cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+nav a {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 1rem;
+  display: inline-block;
+}
+
+nav a:last-of-type {
+  display: none;
+  margin-left: auto;
+}
+
+nav a.active {
+  background-color: #f22f9e;
+}
+
+nav a:hover {
+  background-color: #69B00B;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    width: 100%;
+    font-weight: bold;
+  }
+  nav a:not(:first-of-type) {
+    display: none;
+  }
+  nav a:last-of-type {
+    display: initial;
+    height: 56px;
+  }
+  nav.responsive {
+    display: block;
+  }
+  nav.responsive a {
+    text-align: left;
+    display: block;
+  }
+  nav.responsive a:last-of-type {
+    height: 54px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+body {
+  color: whitesmoke;
+  margin: 0;
+}
+
+body canvas {
+  display: block;
+  width: 100%;
+}
+/*# sourceMappingURL=about.css.map */
