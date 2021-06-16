@@ -2,8 +2,8 @@
 const COLOR_BG = "black";
 const COLOR_CUBE = "green";
 const SPEED_X = .05;
-const SPEED_Y = .1;
-const SPEED_Z = .15;
+const SPEED_Y = .15;
+const SPEED_Z = .25;
 const POINT3D = function(x, y, z) {this.x = x; this.y = y; this.z = z;};
 
 //canvas & context setup
