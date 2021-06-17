@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Odibee+Sans&display=swap');
-
-@import "vars", "nav";
-
 body{
     color: whitesmoke;
     margin: 0;
@@ -10,26 +6,26 @@ body{
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
         font-family: $nunito;
+        canvas{
+            display: inline-block;
+            width: 120px;
+            height: 80px;
+            margin: auto;
+            padding: 0;
+            border: none;
+        }
         h1{
             text-align: center;
             font-family: $odibee-sans;
-        }
-        figure{
-            img{
-                width: 50%;
-                height: auto;
-                display: block;
-                margin: auto;
-            }
-            figcaption{
-                text-align: center;
-            }
         }
         article{
             width: 95%;
             margin: auto;
             line-height: 2;
             font-size: 125%;
+        }
+        footer{
+            width: 100%
         }
     }
 }

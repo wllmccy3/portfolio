@@ -1,14 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Odibee+Sans&display=swap');
 
-@import "vars", "nav";
+@import "vars", "nav", "icons";
 
 *{
     box-sizing: border-box;
 }
 
 body,html{
+    width: 100%;
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 body{
